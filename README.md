@@ -35,5 +35,20 @@ Finally, run bot
 python3 main.py
 ```
 
-
+## Usage
+Interact with bot using command:
+1.  add user get notification
+```
+/add_user <x_username>
+````
+2.  remove user from database, user list
+```
+/remove_user <x_username_from_list_users>
+```
+3.  check user got notification from list user
+```
+/list_users
+```
+4.  start get notification
+After setting please ```/start_crawl``` for reset bot
 
